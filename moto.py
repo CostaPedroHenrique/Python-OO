@@ -6,7 +6,7 @@ class Moto(veiculo.Veiculo):
 
     def abastecer(self, qtd_combustivel):
         print('Abastecendo moto')
-        if self.qtd_combustivel >=30:
+        if self._qtd_combustivel >=30:
             print('O tanque está cheio')
         else:
-            self.qtd_combustivel += qtd_combustivel
+            self._qtd_combustivel += qtd_combustivel
